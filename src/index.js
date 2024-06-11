@@ -4,13 +4,13 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.r.xiandan.uk": "https://registry-1.docker.io",
-  "quay.r.xiandan.uk": "https://quay.io",
-  "gcr.r.xiandan.uk": "https://gcr.io",
-  "k8s-gcr.r.xiandan.uk": "https://k8s.gcr.io",
-  "k8s.r.xiandan.uk": "https://registry.k8s.io",
-  "ghcr.r.xiandan.uk": "https://ghcr.io",
-  "cloudsmith.r.xiandan.uk": "https://docker.cloudsmith.io",
+  "docker.r.xiandan.cafe": "https://registry-1.docker.io",
+  "quay.r.xiandan.cafe": "https://quay.io",
+  "gcr.r.xiandan.cafe": "https://gcr.io",
+  "k8s-gcr.r.xiandan.cafe": "https://k8s.gcr.io",
+  "k8s.r.xiandan.cafe": "https://registry.k8s.io",
+  "ghcr.r.xiandan.cafe": "https://ghcr.io",
+  "cloudsmith.r.xiandan.cafe": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
